@@ -65,9 +65,3 @@ Cucumber Gherkin Full Support
 Karate Runner
 
 Java Extension Pack
-
-## Team
-
-Mark Hughes [m.hughes@heni.com](mailto:m.hughes@heni.com)
-
-Ola Bale [o.bale@heni.com](mailto:o.bale@heni.com)
