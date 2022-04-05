@@ -41,7 +41,7 @@ Please follow the naming convention for branches [branches](https://byorl.atlass
 ticketNumber-shortDescription
 
 # Example
-HENI-875-create-repository-for-karate-api-testing-framework
+HPM-875-create-repository-for-karate-api-testing-framework
 ```
 
 ## Documentation
