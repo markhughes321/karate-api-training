@@ -4,13 +4,21 @@ Karate is an open-source tool to for API test and performance automation.
 
 ## Installation
 
-Use the .....[pip](https:...) to install foobar.
+Clone the repository
 
 ```bash
-pip .....
+git clone https://github.com/jhads/karate.api.testing
+```
+
+Open project root folder
+
+```bash
+cd karate.api.testing
 ```
 
 ## Usage
+
+Once you are in the root directory, you can run the project using the below commands
 
 ```python
 # Runs all feature files
@@ -24,16 +32,42 @@ mvn clean test "-Dkarate.options=--tags @debug"
 
 ```
 
-## Documentation
-
-Karate API [https://github.com/karatelabs/karate](https://github.com/karatelabs/karate)
-
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please follow the naming convention for branches [branches](https://byorl.atlassian.net/wiki/spaces/QA/pages/1069776897/Branch+Naming+Convention).
 
-Please make sure to update tests as appropriate.
+```bash
+# Branching
+ticketNumber-shortDescription
 
-## Creator
+# Example
+HENI-875-create-repository-for-karate-api-testing-framework
+```
+
+## Documentation
+
+[Karate API Official Documentation](https://github.com/karatelabs/karate)
+
+[Udemy Training Course](https://www.udemy.com/course/karate-dsl-api-automation-and-performance-from-zero-to-hero/)
+
+## Dependencies
+
+[Java 11](https://www.oracle.com/uk/java/technologies/javase/jdk11-archive-downloads.html)
+
+[Maven](https://www.baeldung.com/install-maven-on-windows-linux-mac)
+
+[Video Tutorial](https://www.youtube.com/watch?v=9S5lqB11OPI&t=183s)
+
+## VS Code Plugins
+
+Cucumber Gherkin Full Support
+
+Karate Runner
+
+Java Extension Pack
+
+## Team
 
 Mark Hughes [m.hughes@heni.com](mailto:m.hughes@heni.com)
+
+Ola Bale [o.bale@heni.com](mailto:o.bale@heni.com)
