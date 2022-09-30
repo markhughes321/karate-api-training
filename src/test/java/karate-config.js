@@ -6,7 +6,7 @@ function fn() {
   }
   var config = {
     env: env,
-    googleUrl: 'https://google.com/'
+    conduitUrl: 'https://conduit.productionready.io/api/'
   }
   if (env == 'dev') {
     // customize
