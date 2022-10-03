@@ -1,8 +1,10 @@
-@signUp
+@CreatePost
 Feature: Users can Create blog posts
+
 
   Background:
     * url conduitUrl
+    * header authorization = 'Token ' + authToken
     * def expectedResponse = read('classpath:conduit/responses/createPost.json')
     * def dateMilliSeconds = function(){ return java.lang.System.currentTimeMillis() }
     * def now = 'Test-' + dateMilliSeconds()
@@ -13,3 +15,4 @@ Feature: Users can Create blog posts
     When method POST
     Then status 200
     And match response == expectedResponse
+    And def articleSlug = response.article.slug

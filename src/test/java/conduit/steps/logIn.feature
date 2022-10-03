@@ -1,5 +1,6 @@
-@signUp
+@LogIn
 Feature: Users can Login
+
 
   Background:
     * url conduitUrl
@@ -9,7 +10,8 @@ Feature: Users can Login
 
   Scenario: Login
     Given path 'users', 'login'
-    And request { user: { email: '#(now + "@gmail.com")', password: '#(now)' }}
+    And request { user: { email: '#(userEmail)', password: '#(userPassword)' }}
     When method POST
     Then status 200
     And match response == expectedResponse
+    * def authToken = response.user.token

@@ -1,5 +1,6 @@
-@signUp
+@SignUp
 Feature: Users can Sign Up
+
 
   Background:
     * url conduitUrl
@@ -13,3 +14,5 @@ Feature: Users can Sign Up
     When method POST
     Then status 200
     And match response == expectedResponse
+    * def userEmail = response.user.email
+    * def userPassword = now

@@ -16,7 +16,7 @@ class TestParallel {
 
     @Test
     void testParallel() {
-        Results results = Runner.path("classpath:conduit/steps")
+        Results results = Runner.path("classpath:conduit")
                 .outputCucumberJson(true)
                 .parallel(5);
         generateReport(results.getReportDir());
