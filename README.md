@@ -11,7 +11,7 @@ Using the [Conduit App](https://react-redux.realworld.io/#/?_k=zkbpmx) and the [
 Clone the repository
 
 ```bash
-git clone https://github.com/dublinteam/karate-api-conduit
+git clone https://github.com/markhughes321/karate-api-testing
 ```
 
 Open project root folder
