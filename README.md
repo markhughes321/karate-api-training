@@ -2,7 +2,7 @@
 
 ## Challenge
 
-Using the Conduit App and the Karate API Framework, write some tests to automate this end-to-end flow:
+Using the [Conduit App](https://react-redux.realworld.io/#/?_k=zkbpmx) and the [Karate API Framework](https://github.com/karatelabs), write some tests to automate this end-to-end flow:
 
 ![Blank diagram](https://user-images.githubusercontent.com/9667977/193516142-a81c1f52-b87d-47ec-8ff4-a89588f30b4f.png)
 
