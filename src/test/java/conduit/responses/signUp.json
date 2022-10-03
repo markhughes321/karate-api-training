@@ -2,7 +2,7 @@
   "user": {
       "email": "#string",
       "username": "#string",
-      "bio": null,
+      "bio": "##string",
       "image": "#string",
       "token": "#string"
   }
