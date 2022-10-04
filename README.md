@@ -17,7 +17,7 @@ git clone https://github.com/markhughes321/karate-api-testing
 Open project root folder
 
 ```bash
-cd karate-api-conduit
+cd karate-api-training
 ```
 
 ## Usage
