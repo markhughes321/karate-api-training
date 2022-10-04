@@ -1,4 +1,4 @@
-# Karate API Training
+# Karate API Training 🥋
 
 ## Challenge
 
