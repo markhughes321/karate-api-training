@@ -13,4 +13,3 @@ Feature: Users can get blog posts from Global Feed
     When method GET
     Then status 200
     And match each response.articles == expectedResponse
-    And match response.articles[0].title == '#(now)'

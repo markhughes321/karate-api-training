@@ -26,9 +26,9 @@ Once you are in the root directory, you can run the project using the below comm
 
 ```python
 # Runs all feature files
-mvn test
+mvn clean test
 
 # Runs the project using tags
-mvn clean test "-Dkarate.options=--tags @createPostController.feature"
+mvn clean test "-Dkarate.options=--tags @createPostController"
 
 ```

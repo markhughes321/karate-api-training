@@ -14,4 +14,3 @@ Feature: Users can Login
     When method POST
     Then status 200
     And match response == expectedResponse
-    * def authToken = response.user.token

@@ -15,4 +15,3 @@ Feature: Users can Create blog posts
     When method POST
     Then status 200
     And match response == expectedResponse
-    And def articleSlug = response.article.slug
