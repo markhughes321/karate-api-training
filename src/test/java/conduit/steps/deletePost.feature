@@ -1,4 +1,4 @@
-@SignUp
+@DeletePost
 Feature: Users can delete articles
 
 

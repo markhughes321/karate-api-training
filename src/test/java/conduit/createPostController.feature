@@ -1,4 +1,4 @@
-@createPostController @AdvancedStep @ignore
+@CreatePostController @AdvancedStep @ignore
 Feature: Users can login and create posts
 
   Scenario: Create Post Controller
