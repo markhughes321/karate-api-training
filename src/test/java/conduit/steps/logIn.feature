@@ -5,8 +5,8 @@ Feature: Users can Login
   Background:
     * url conduitUrl
     * def expectedResponse = read('classpath:conduit/responses/logIn.json')
-    * def dateMilliSeconds = function(){ return java.lang.System.currentTimeMillis() }
-    * def now = 'Test-' + dateMilliSeconds()
+    * def userEmail = 'Test-1665120306813@gmail.com'
+    * def userPassword = 'Test-1665120306813'
 
   Scenario: Login
     Given path 'users', 'login'

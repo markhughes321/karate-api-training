@@ -4,7 +4,6 @@ Feature: Users can get blog posts from Global Feed
 
   Background:
     * url conduitUrl
-    * header authorization = 'Token ' + authToken
     * def expectedResponse = read('classpath:conduit/responses/getPost.json')
     * params { limit: 10, offset: 0 }
 

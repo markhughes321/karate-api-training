@@ -4,7 +4,8 @@ Feature: Users can delete articles
 
   Background:
     * url conduitUrl
-    * header authorization = 'Token ' + authToken
+    * call read('classpath:conduit/steps/createPost.feature')
+    * def articleSlug = response.article.slug
 
   Scenario: Delete article
     Given path 'articles', articleSlug

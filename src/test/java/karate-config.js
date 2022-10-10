@@ -20,5 +20,8 @@ function fn() {
     // customize
   }
 
+  var accessToken = karate.callSingle('classpath:conduit/helpers/signUp.feature', config).authToken
+  karate.configure('headers', {Authorization: 'Token ' + accessToken})
+
   return config;
 }
